@@ -1,6 +1,7 @@
-# Imperavi Redactor for Rails 3.x - 4 Asset Pipeline 
-
+# Imperavi Redactor for Rails 3.x - 5.1.0.rc1 Asset Pipeline.
 redactor2_rails integrates Imperavi Redactor for Rails Asset Pipeline (Rails 4, 3.x versions are supported)
+
+This fork changes the two before_filters to before_actions to enable it to not fail in Rails 5.x. No work beyond getting it to deploy has yet been done.
 
 [![Gem Version](https://badge.fury.io/rb/redactor2_rails.svg)](https://badge.fury.io/rb/redactor2_rails)
 
